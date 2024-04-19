@@ -1,7 +1,7 @@
 name: Elevators
 version: '${project.version}'
 main: net.forestfire.elevators.Main
-api-version: 1.18
+api-version: 1.20
 authors: [ Pecacheu ]
 description: Adds Working Elevators to Minecraft!
 commands:

@@ -122,29 +122,7 @@ public ChuList<E> subList(int fromIndex, int toIndex) {
 	else list = super.subList(fromIndex, toIndex); return new ChuList<E>(list);
 }
 
-	/*@SuppressWarnings("unchecked")
-	@Override
-	public E[] toArray() {
-		int size = super.size(); Object[] arr = new Object[size];
-		for(int i=0; i<size; i++) arr[i] = super.get(i); return ((E[])arr);
-	}*/
-
-//Unchanged Methods:
-
-//size()
-//ensureCapacity()
-//trimToSize()
-//indexOf()
-//lastIndexOf()
-//forEach()
-//isEmpty()
-//equals()
-//toArray()
-//hashCode()
-
 //--------- Unimplemented Methods:
-
-//TODO Add Error-Checking To These Methods:
 
 @Override
 public boolean addAll(Collection<? extends E> c) {
